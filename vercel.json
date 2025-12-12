@@ -1,19 +1,10 @@
 {
   "rewrites": [
-   
-    {
-      "source": "/api/brands",
-      "destination": "/api/brands.js"
-    },
-   
-    {
-      "source": "/api/products",
-      "destination": "/api/products.js"
-    },
-   
-    {
-      "source": "/api/orders",
-      "destination": "/api/orders.js"
-    }
+    { "source": "/api/brands", "destination": "/api/brands.js" },
+    { "source": "/api/brands/:id", "destination": "/api/brands.js" },
+    { "source": "/api/products", "destination": "/api/products.js" },
+    { "source": "/api/products/:id", "destination": "/api/products.js" },
+    { "source": "/api/orders", "destination": "/api/orders.js" },
+    { "source": "/api/orders/:id", "destination": "/api/orders.js" }
   ]
 }
