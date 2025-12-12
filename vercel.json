@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    
     { "source": "/api/brands", "destination": "/api/brands.js" },
     { "source": "/api/brands/:id", "destination": "/api/brands.js" },
     
@@ -12,14 +11,11 @@
   ],
   "builds": [
     {
-      "src": "src/main.ts",
-      "use": "@vercel/static-build"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/invetory-management" 
+      }
     }
   ]
-
-
-
-
-  
-
 }
