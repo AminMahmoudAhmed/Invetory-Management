@@ -1,0 +1,77 @@
+{
+  "brands": [
+    {
+      "id": "1",
+      "name": "LG"
+    },
+    {
+      "id": "2",
+      "name": "samsung"
+    },
+    {
+      "id": "977f",
+      "name": "apply"
+    },
+    {
+      "id": "29cd",
+      "name": "appLY"
+    },
+    {
+      "id": "e9ca",
+      "name": "app"
+    },
+    {
+      "id": "29c1",
+      "name": "app"
+    }
+  ],
+  "products": [
+    {
+      "name": "LG TV 32inch",
+      "details": "detail",
+      "brandId": 1,
+      "purchasePrice": "10000",
+      "salePrice": "12000",
+      "availableQuantity": "1000222",
+      "id": "1"
+    },
+    {
+      "name": "LG TV 72inch",
+      "details": "detail",
+      "brandId": 2,
+      "purchasePrice": 1000,
+      "salePrice": 1200,
+      "availableQuantity": "20222222111",
+      "id": "2"
+    },
+    {
+      "name": "LG 64 ",
+      "details": "dsadda",
+      "brandId": "2",
+      "purchasePrice": 177,
+      "salePrice": 56,
+      "availableQuantity": "651112223",
+      "id": "1815"
+    }
+  ],
+  "orders": [
+    {
+      "orderNo": "ccc",
+      "productId": "1",
+      "quantity": "2",
+      "salePrice": "12000",
+      "discount": "2",
+      "totalAmount": null,
+      "id": "49c7"
+    },
+    {
+      "id": "8288",
+      "orderNo": "aaaaaa",
+      "productId": "2",
+      "quantity": "2",
+      "salePrice": 1200,
+      "discount": "1111",
+      "totalAmount": 1289
+    }
+  ]
+}
