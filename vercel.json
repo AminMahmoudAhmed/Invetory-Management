@@ -16,4 +16,7 @@
       "use": "@vercel/static-build"
     }
   ]
+
+
+  
 }
